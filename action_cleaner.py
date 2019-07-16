@@ -8,7 +8,11 @@ saved_actions = []
 #iterate thru all objects, save their action names
 for obj in objects:
     if obj.animation_data:
-        saved_actions.append(obj.animation_data.action.name)
+        print(obj.name + ' processing...')
+        try:
+            saved_actions.append(obj.animation_data.action.name)
+        except:
+            pass
 
 #delete actions that aren't used by any objects
 for act in actions:
