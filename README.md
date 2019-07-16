@@ -10,6 +10,6 @@ Duplicate Faces - duplicates selected faces/edges/verts and then separates them 
 
 Mixamo Rename - just gets rid of the "mixamorig: " prefix that Mixamo attaches to joints. Useful if you want to use Blender's animation retargeting addon or just to clean up the outliner for additional edits to the rig.
 
-Custom menu - a bunch of actions I frequently use. Just wanted them on a hotkey.
+Custom menu - a bunch of functions I frequently use. Just wanted them on a hotkey.
 
-Action Cleaner - iterates thru objects and deletes any actions that have no users. Useful for cleaning up a file that makes heavy use of Mixamo animations & the NLA editor
+Action Cleaner - iterates thru objects and deletes any animations that have no users. Useful for cleaning up a file that makes heavy use of Mixamo animations & the NLA editor. Save a backup as this refreshes the file to release the data blocks.
