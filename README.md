@@ -1,6 +1,6 @@
 # BlendScripts
 
-All of these were created for use in Blender 2.79b. Haven't tested in 2.8 yet.
+***All of these were created for use in Blender 2.79b. Haven't tested in 2.8 yet.***
 
 Various Python scripts I created to speed up my workflow
 
