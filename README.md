@@ -13,3 +13,6 @@ Mixamo Rename - just gets rid of the "mixamorig: " prefix that Mixamo attaches t
 Custom menu - a bunch of functions I frequently use. Just wanted them on a hotkey.
 
 Action Cleaner - iterates thru objects and deletes any animations that have no users. Useful for cleaning up a file that makes heavy use of Mixamo animations & the NLA editor. Save a backup as this refreshes the file to release the data blocks.
+
+
+Ani Retarget - creates an "interface" for retargeting animations. Basically puts empties on all the bones, constrains them to a source rig, and then puts necessary constraints on the target's bones. Allows for easy correction of retargeted animation. Rigs must be named "source" and "target".
