@@ -43,11 +43,6 @@ for key, value in bone_dic.items():
     parent.constraints.new('COPY_TRANSFORMS')
     parent.constraints['Copy Transforms'].target = source_rig
     parent.constraints['Copy Transforms'].subtarget = key
-
-    if parent.name.lower().endswith('hips'):
-        parent.constraints.new('COPY_TRANSFORMS')
-        parent.constraints['Copy Transforms'].target = source_rig
-        parent.constraints['Copy Transforms'].subtarget = key
     
     parent.hide = True
     
