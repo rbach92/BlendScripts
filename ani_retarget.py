@@ -60,8 +60,7 @@ for bone in pose_bones:
     bone.constraints.new('COPY_ROTATION')
     bone.constraints["Copy Rotation"].target = bpy.data.objects["target_{}".format(bone.name)]
 
-    if bone.name.lower().endswith('hips'):
+    if bone.name.lower().endswith('hips') or bone.name.lower().endswith('root'):
         bone.constraints.new('COPY_LOCATION')
         bone.constraints['Copy Location'].target = bpy.data.objects["target_{}".format(bone.name)]
     
-
